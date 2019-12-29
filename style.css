@@ -1,6 +1,6 @@
 @font-face {
     font-family: platonicc-font;
-    src: url(../font/regular.ttf);
+    src: url(font/regular.ttf);
 }
 
 body {
@@ -15,6 +15,10 @@ a {
 
 a:hover {
     color: grey;
+}
+
+.circuit{
+    color: orange;
 }
 
 .branding_container{
@@ -90,6 +94,7 @@ a:hover {
 
 .nav_item .nav_link {
     color: orange;
+    font-size: auto;
 }
 
 .nav_item:hover .nav_link {
@@ -116,6 +121,15 @@ a:hover {
     color: orange;
 }
 
+.eq{
+    color: orange;
+    padding=50px;
+    font-size: 120%;
+}
+
+.featured_title{
+    font-style: italic;
+}
 
 @media (max-width: 900px){
     .logo{
